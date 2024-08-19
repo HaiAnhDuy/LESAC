@@ -1,0 +1,218 @@
+.lesac-onme-container {
+    font-family: 'Montserrat', sans-serif;
+
+    margin-top: 100px;
+    display: grid;
+    gap: 30px;
+
+    .lesac-onme-title {
+        height: 37px;
+        width: 1180px;
+        margin: 0 auto;
+
+        .content-left {
+            font-size: 35px;
+            line-height: 36px;
+            float: left;
+        }
+
+        .content-right {
+            float: right;
+
+            svg {
+                vertical-align: middle;
+            }
+        }
+
+
+    }
+
+    .lesac-onme-display-container {
+        width: 1180px;
+        height: 323.98px;
+        margin: 0 auto;
+        display: flex;
+        gap: 24.5px;
+        flex-wrap: wrap;
+
+        .make-display {
+            display: grid;
+
+            .display-img {
+                width: 215.94px;
+                height: 287.91px;
+                background-image: url(https://pos.nvncdn.com/b22375-44395/bn/20231207_16PKq9zV.gif);
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+            }
+
+            .display-name {
+                height: 36px;
+                width: 215.94px;
+                font-size: 12px;
+                line-height: 36px;
+                color: #000000;
+                text-align: center;
+
+            }
+        }
+
+
+    }
+
+    .thin {
+        width: 1180px;
+
+        padding-top: 40px;
+        margin: 0 auto;
+        border-bottom: 1px solid #D8D8D8;
+    }
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+    .lesac-onme-container {
+        font-family: 'Montserrat', sans-serif;
+        opacity: 0;
+        margin-top: 100px;
+        display: grid;
+        gap: 30px;
+
+        .lesac-onme-title {
+            height: 37px;
+            width: 1180px;
+            margin: 0 auto;
+
+            .content-left {
+                font-size: 35px;
+                line-height: 36px;
+                float: left;
+            }
+
+            .content-right {
+                float: right;
+
+                svg {
+                    vertical-align: middle;
+                }
+            }
+
+
+        }
+
+        .lesac-onme-display-container {
+            width: 1180px;
+            height: 323.98px;
+            margin: 0 auto;
+            display: flex;
+            gap: 24.5px;
+            flex-wrap: wrap;
+
+            .make-display {
+                display: grid;
+
+                .display-img {
+                    width: 215.94px;
+                    height: 287.91px;
+                    background-image: url(https://pos.nvncdn.com/b22375-44395/bn/20231207_16PKq9zV.gif);
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    background-size: cover;
+                }
+
+                .display-name {
+                    height: 36px;
+                    width: 215.94px;
+                    font-size: 12px;
+                    line-height: 36px;
+                    color: #000000;
+                    text-align: center;
+
+                }
+            }
+
+
+        }
+
+        .thin {
+            width: 1180px;
+
+            padding-top: 40px;
+            margin: 0 auto;
+            border-bottom: 1px solid #D8D8D8;
+        }
+    }
+}
+
+@media only screen and (min-device-width: 1025px) and (max-device-width: 1225px) {
+    .lesac-onme-container {
+        font-family: 'Montserrat', sans-serif;
+        opacity: 1;
+        margin-top: 100px;
+        display: grid;
+        gap: 30px;
+
+        .lesac-onme-title {
+            height: 37px;
+            width: 1180px;
+            margin: 0 auto;
+
+            .content-left {
+                font-size: 35px;
+                line-height: 36px;
+                float: left;
+            }
+
+            .content-right {
+                float: right;
+
+                svg {
+                    vertical-align: middle;
+                }
+            }
+
+
+        }
+
+        .lesac-onme-display-container {
+            height: 323.98px;
+            margin: 0 auto;
+            display: flex;
+            gap: 24.5px;
+            flex-wrap: wrap;
+
+            .make-display {
+                display: grid;
+
+                .display-img {
+                    width: 215.94px;
+                    height: 287.91px;
+                    background-image: url(https://pos.nvncdn.com/b22375-44395/bn/20231207_16PKq9zV.gif);
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    background-size: cover;
+                }
+
+                .display-name {
+                    height: 36px;
+                    width: 215.94px;
+                    font-size: 12px;
+                    line-height: 36px;
+                    color: #000000;
+                    text-align: center;
+
+                }
+            }
+
+
+        }
+
+        .thin {
+            width: 1180px;
+
+            padding-top: 40px;
+            margin: 0 auto;
+            border-bottom: 1px solid #D8D8D8;
+        }
+    }
+}

@@ -1,0 +1,213 @@
+.categories-container {
+    font-family: 'Montserrat', sans-serif;
+
+    // border: 1px solid red;
+    height: 450px;
+    width: 1180px;
+    margin: 0 auto;
+    margin-top: 120px;
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+
+
+    .make-categories {
+        display: grid;
+        // flex-wrap: wrap;
+
+        .categories-display-container {
+            cursor: pointer;
+            // border: 1px solid green;
+            height: 402px;
+            width: 271.39px;
+            // background-image: url(https://pos.nvncdn.com/b22375-44395/bn/20231208_dOUGt9Xy.gif);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .categories-title-container {
+            // border: 1px solid red;
+            margin-top: 20px;
+            height: 25px;
+            width: 271.39px;
+            color: #414141;
+            font-weight: 500;
+            font-size: 16px;
+            text-align: center;
+            text-transform: uppercase;
+            line-height: 20px;
+            justify-content: center;
+        }
+    }
+
+}
+
+.categories-container-2 {
+    opacity: 0;
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+    .categories-container {
+        opacity: 0;
+        font-family: 'Montserrat', sans-serif;
+
+        // border: 1px solid red;
+        height: 450px;
+        width: 1180px;
+        margin: 0 auto;
+        margin-top: 120px;
+        display: flex;
+        gap: 30px;
+        flex-wrap: wrap;
+
+
+        .make-categories {
+            display: grid;
+            // flex-wrap: wrap;
+
+            .categories-display-container {
+                cursor: pointer;
+                // border: 1px solid green;
+                height: 402px;
+                width: 271.39px;
+                // background-image: url(https://pos.nvncdn.com/b22375-44395/bn/20231208_dOUGt9Xy.gif);
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+
+            .categories-title-container {
+                // border: 1px solid red;
+                margin-top: 20px;
+                height: 25px;
+                width: 271.39px;
+                color: #414141;
+                font-weight: 500;
+                font-size: 16px;
+                text-align: center;
+                text-transform: uppercase;
+                line-height: 20px;
+                justify-content: center;
+            }
+        }
+
+    }
+
+    .categories-container-2 {
+        opacity: 1;
+        margin: 0 auto;
+        margin-top: -430px;
+        font-family: 'Montserrat', sans-serif;
+
+        .name-categories {
+            margin: 0 auto;
+            text-align: center;
+            text-transform: uppercase;
+            font-size: 20px;
+            line-height: 25px;
+
+        }
+
+        .slick-next {
+            display: none !important;
+            margin-left: 60px !important;
+        }
+
+
+
+        .slick-prev {
+            display: none !important;
+
+        }
+
+        .make-categories {
+            margin: 0 auto;
+            padding-top: 60px;
+
+            .categories-display-container {
+                margin: 0 auto;
+
+                cursor: pointer;
+                // border: 1px solid green;
+                height: 402px;
+                width: 271.39px;
+                // background-image: url(https://pos.nvncdn.com/b22375-44395/bn/20231208_dOUGt9Xy.gif);
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+
+            .categories-title-container {
+                // border: 1px solid red;
+                margin: 0 auto;
+
+                margin-top: 20px;
+                height: 25px;
+                width: 271.39px;
+                color: #414141;
+                font-weight: 500;
+                font-size: 16px;
+                text-align: center;
+                text-transform: uppercase;
+                line-height: 20px;
+                justify-content: center;
+            }
+        }
+    }
+}
+
+@media only screen and (min-device-width: 1025px) and (max-device-width: 1225px) {
+    .categories-container {
+        font-family: 'Montserrat', sans-serif;
+
+        // border: 1px solid red;
+        height: 450px;
+        margin: 0 auto;
+        width: 100%;
+        margin-top: 120px;
+        justify-content: center;
+        display: flex;
+        gap: 30px;
+        flex-wrap: wrap;
+
+
+        .make-categories {
+            display: grid;
+            // flex-wrap: wrap;
+            // justify-content: center;
+
+            .categories-display-container {
+
+                cursor: pointer;
+                // border: 1px solid green;
+                height: 330px;
+                width: 218px;
+                // background-image: url(https://pos.nvncdn.com/b22375-44395/bn/20231208_dOUGt9Xy.gif);
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+
+            .categories-title-container {
+                // border: 1px solid red;
+                margin-top: 20px;
+                height: 25px;
+                width: 218px;
+                color: #414141;
+                font-weight: 500;
+                font-size: 16px;
+                text-align: center;
+                text-transform: uppercase;
+                line-height: 20px;
+                justify-content: center;
+            }
+        }
+
+    }
+
+    .categories-container-2 {
+        display: none;
+        opacity: 0;
+    }
+}

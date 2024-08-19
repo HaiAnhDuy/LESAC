@@ -1,0 +1,245 @@
+.product-display-group-content-right {
+    display: flex !important;
+
+    flex-wrap: wrap !important;
+
+    width: 772px;
+    height: fit-content;
+    // border: 1px solid red;
+    gap: 27px;
+    margin-top: 30px;
+
+
+    .display-product-content {
+        cursor: pointer;
+        width: 238px;
+        height: 349.16px;
+        margin: 0;
+
+
+        .display-image-product {
+            width: 238px;
+            height: 314.16px;
+            // border: 1px solid blue;
+            // background-image: url(https://pos.nvncdn.com/b22375-44395/ps/20240116_tw3dlfT8L0.jpeg);
+
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+
+        .content-display {
+            width: 238px;
+            height: 35px;
+            // border: 1px solid red;
+
+            h3 {
+                font-size: 11px;
+                line-height: 13px;
+                text-transform: uppercase;
+                text-align: center;
+                margin-top: 2px;
+            }
+
+            p {
+                font-size: 12px;
+                line-height: 13px;
+                color: #878787;
+                text-align: center;
+            }
+        }
+    }
+
+}
+
+.product-display-group-content-right-2 {
+    height: 0px;
+    display: none !important;
+    opacity: 0;
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+    .product-display-group-content-right {
+        height: 0px;
+        display: none !important;
+        opacity: 0;
+
+        flex-wrap: wrap !important;
+
+        width: 772px;
+        height: fit-content;
+        // border: 1px solid red;
+        gap: 27px;
+        margin-top: 30px;
+
+
+        .display-product-content {
+            cursor: pointer;
+            width: 238px;
+            height: 349.16px;
+            margin: 0;
+
+
+            .display-image-product {
+                width: 238px;
+                height: 314.16px;
+                // border: 1px solid blue;
+                // background-image: url(https://pos.nvncdn.com/b22375-44395/ps/20240116_tw3dlfT8L0.jpeg);
+
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+            }
+
+            .content-display {
+                width: 238px;
+                height: 35px;
+                // border: 1px solid red;
+
+                h3 {
+                    font-size: 11px;
+                    line-height: 13px;
+                    text-transform: uppercase;
+                    text-align: center;
+                    margin-top: 2px;
+                }
+
+                p {
+                    font-size: 12px;
+                    line-height: 13px;
+                    color: #878787;
+                    text-align: center;
+                }
+            }
+        }
+
+    }
+
+    .product-display-group-content-right-2 {
+        opacity: 1;
+        display: flex !important;
+        flex-wrap: wrap !important;
+
+        height: fit-content;
+        // border: 1px solid red;
+        gap: 50px;
+        margin-left: 0px !important;
+        margin-top: 70px !important;
+
+        .hetsp_categories {
+            margin-left: 30px;
+            padding-top: 20px;
+            color: red;
+        }
+
+        .color_text {
+            margin-left: 30px;
+            padding-top: 20px;
+            color: red;
+        }
+
+        .display-product-content {
+            cursor: pointer;
+            width: 180px;
+            height: 349.16px;
+            margin: 0;
+
+
+            .display-image-product {
+                width: 180px;
+                height: 314.16px;
+                // border: 1px solid blue;
+                // background-image: url(https://pos.nvncdn.com/b22375-44395/ps/20240116_tw3dlfT8L0.jpeg);
+
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+            }
+
+            .content-display {
+                width: 180px;
+                height: 35px;
+                // border: 1px solid red;
+
+                h3 {
+                    font-size: 11px;
+                    line-height: 13px;
+                    text-transform: uppercase;
+                    text-align: center;
+                    margin-top: 2px;
+                }
+
+                p {
+                    font-size: 12px;
+                    line-height: 13px;
+                    color: #878787;
+                    text-align: center;
+                }
+            }
+        }
+
+    }
+}
+
+@media only screen and (min-device-width: 1025px) and (max-device-width: 1225px) {
+    .product-display-group-content-right {
+        display: flex !important;
+
+        flex-wrap: wrap !important;
+
+        width: 772px;
+        height: fit-content;
+        // border: 1px solid red;
+        gap: 20px;
+        margin-top: 30px;
+        margin-left: -15px;
+
+
+        .display-product-content {
+            cursor: pointer;
+            width: 230px;
+            height: 300px;
+            margin: 0;
+
+
+            .display-image-product {
+                width: 238px;
+                height: 314.16px;
+                // border: 1px solid blue;
+                // background-image: url(https://pos.nvncdn.com/b22375-44395/ps/20240116_tw3dlfT8L0.jpeg);
+
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+            }
+
+            .content-display {
+                width: 238px;
+                height: 35px;
+                // border: 1px solid red;
+
+                h3 {
+                    font-size: 11px;
+                    line-height: 13px;
+                    text-transform: uppercase;
+                    text-align: center;
+                    margin-top: 2px;
+                }
+
+                p {
+                    font-size: 12px;
+                    line-height: 13px;
+                    color: #878787;
+                    text-align: center;
+                }
+            }
+        }
+
+    }
+
+    .product-display-group-content-right-2 {
+        height: 0px;
+        display: none !important;
+        opacity: 0;
+    }
+}

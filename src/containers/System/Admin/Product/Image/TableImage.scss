@@ -1,0 +1,22 @@
+img {
+    margin: 10px;
+}
+
+.color_container {
+    display: flex;
+    gap: 10px;
+
+    .color_table {
+        width: 20px;
+        height: 20px;
+        border: 0.5px solid black;
+        border-radius: 50%;
+    }
+}
+
+.them_anh_case {
+    padding-top: 10px;
+    font-size: 19px;
+    font-weight: 600;
+    width: 100%;
+}

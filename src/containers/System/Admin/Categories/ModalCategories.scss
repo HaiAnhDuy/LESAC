@@ -1,0 +1,46 @@
+.menu {
+    width: 250px !important;
+}
+
+
+.content-title {
+    text-align: center;
+    font-size: 26px;
+    color: #333333;
+    margin-top: 15px;
+}
+
+.img-container {
+    .btn-upload {
+        padding: 6px;
+        background-color: #dedede;
+        color: brown;
+        cursor: pointer;
+    }
+
+    .preview-file {
+        border: 1px solid #dedede;
+
+        width: 50%;
+        height: 100px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+}
+
+
+.gender,
+.role {
+    margin-top: 20px;
+}
+
+label {
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+
+.btn-manager-categories {
+    margin-left: -20px;
+}

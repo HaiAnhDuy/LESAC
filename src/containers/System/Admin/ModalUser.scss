@@ -1,0 +1,49 @@
+.input_ep {
+    display: flex;
+
+    .div_pass {
+        margin-left: 20px;
+
+        .pass {
+            width: 90%;
+        }
+    }
+}
+
+.div_name {
+    display: flex;
+
+    .div_ln {
+        margin-left: 20px;
+
+        .ln {
+            width: 90%;
+        }
+    }
+}
+
+.div_email {
+    margin-top: 7px;
+}
+
+.div_address {
+    margin-top: 5px;
+}
+
+.div_phone {
+    margin-top: 5px;
+
+    .phone {
+        width: 100%;
+    }
+
+}
+
+
+
+
+
+
+// .div_font {
+//     margin-bottom: 20px;
+// }

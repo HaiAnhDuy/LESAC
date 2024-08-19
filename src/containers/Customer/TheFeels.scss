@@ -1,0 +1,111 @@
+.the-feels-container {
+    display: grid;
+
+    margin-top: 200px;
+    // border: 1px solid red;
+    height: 877px;
+    background-image: url(https://pos.nvncdn.com/b22375-44395/bn/20231207_AzOa5Fbj.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    .content-container {
+        width: 610px;
+        height: 118px;
+        margin: 0 auto;
+        margin-top: 20%;
+        margin-right: 15%;
+
+        .title-the-feel {
+            font-size: 35px;
+            line-height: 35px;
+            max-width: 454px;
+        }
+
+        .content-the-feel {
+            margin-top: 7px;
+            font-weight: 500;
+            font-size: 12px;
+        }
+
+        .btn-the-feels {
+            background-color: transparent;
+            margin: 0 auto;
+            margin-top: 10px;
+            width: 159px;
+            height: 41px;
+            border: 1px solid black;
+            text-align: center;
+            color: black;
+            font-weight: 100;
+            transition: 1s;
+
+            &.btn-the-feels:hover {
+                color: white;
+                background-color: #878787;
+                border: none;
+            }
+        }
+    }
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+    .the-feels-container {
+        display: grid;
+
+        margin-top: 100px;
+        // border: 1px solid red;
+        height: fit-content;
+        background-image: url(https://pos.nvncdn.com/b22375-44395/bn/20231207_AzOa5Fbj.gif);
+        background-repeat: no-repeat;
+        background-position: center top;
+        ;
+
+        background-size: cover;
+
+        .content-container {
+            width: 610px;
+            height: 118px;
+            margin: 0 auto;
+            margin-top: 20%;
+            margin-right: 15%;
+
+            .title-the-feel {
+                margin-left: 10px;
+
+                font-size: 24px;
+                margin-top: -70px;
+                line-height: 35px;
+            }
+
+            .content-the-feel {
+                opacity: 0;
+                margin-top: 7px;
+                font-weight: 500;
+                font-size: 12px;
+            }
+
+            .btn-the-feels {
+                background-color: transparent;
+                margin: 0 auto;
+                margin-top: -10px;
+                margin-left: 30px;
+
+                width: 80px;
+                height: 41px;
+                border: 1px solid black;
+                text-align: center;
+                padding-top: 5px;
+                color: black;
+                font-size: 15px;
+                transition: 1s;
+
+                &.btn-the-feels:hover {
+                    color: white;
+                    background-color: #878787;
+                    border: none;
+                }
+            }
+        }
+    }
+}

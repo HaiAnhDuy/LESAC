@@ -1,0 +1,774 @@
+.WhatNew-container {
+
+    height: fit-content;
+    display: grid;
+    font-family: 'Montserrat', sans-serif;
+
+    .Whatnew-banner {
+        height: 905px;
+        // border: 1px solid red;
+        width: 100%;
+        background-image: url(https://pos.nvncdn.com/b22375-44395/bn/20240403_TaWaYDE2.gif);
+        // background-image: url('../../assets/images/thang.jpg');
+
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        .Whatnew-banner-content {
+            width: 334px;
+            // border: 1px solid red;
+            height: 200px;
+            margin: 0 350px;
+            margin-top: 450px;
+
+            .title {
+                font-weight: 600;
+                font-size: 33px;
+                line-height: 38px;
+                max-width: 466px;
+                color: white;
+                font-family: 'Montserrat', sans-serif;
+            }
+
+            .title-child {
+                color: beige;
+                font-family: 'Montserrat', sans-serif;
+                margin-top: 15px;
+            }
+
+            .btn-banner {
+                width: 168px;
+                height: 50px;
+                background-color: transparent;
+                border: 1px solid beige;
+                margin-left: 5px;
+
+                &.btn-banner:hover {
+                    color: white;
+                    background-color: gray;
+                    border: 1px solid gray;
+
+                    outline: none;
+                    transition: 0.5s;
+                }
+            }
+        }
+
+    }
+
+    .Whatnew-content {
+        margin-top: 150px;
+        // border: 1px solid red;
+        height: fit-content;
+
+        .content-title {
+            text-transform: uppercase;
+            font-size: 35px;
+            line-height: 56px;
+            text-align: center;
+        }
+
+        .content-display {
+            margin: 0 auto;
+            // border: 1px solid green;
+            width: 1180px;
+            height: 410px;
+            margin-top: 92px;
+
+
+            .display-container {
+                flex-wrap: wrap;
+
+                display: flex;
+                width: 1180px;
+                height: auto;
+
+                gap: 33px;
+
+                .content-display-child {
+                    transition: 1s;
+
+                    width: 270px;
+                    height: 410px;
+
+                    // border: 1px solid red;
+
+
+
+                    .content-display-product {
+                        cursor: pointer;
+                        height: 355px !important;
+                        // border: 1px solid blue;
+                        // background-image: url(https://pos.nvncdn.com/b22375-44395/ps/20240404_Gs3rUlDa16.jpeg);
+                        background-repeat: no-repeat;
+                        background-position: center;
+                        background-size: cover;
+
+                    }
+
+                    .content-display-price {
+                        height: 55px !important;
+                        // border: 1px solid blue;
+                        font-size: 16px;
+                        line-height: 20px;
+
+                        .name-product {
+                            font-size: 16px;
+                            line-height: 20px;
+                            font-weight: 600;
+                            text-align: center;
+                            margin-top: 5px;
+                        }
+
+                        // new
+                        .color-product {
+                            justify-content: center;
+                            text-align: center;
+                            display: flex;
+                            gap: 10px;
+
+                            .border-radius-color {
+                                cursor: pointer;
+                                justify-content: center;
+                                text-align: center;
+                                margin: 5px;
+                                height: 20px;
+                                width: 20px;
+                                margin-top: 25px;
+                                border: 2px solid rgb(111, 107, 107);
+                                // background-color: yellow;
+                                border-radius: 50%;
+                                display: inline-flex;
+
+
+                            }
+                        }
+
+                        .price-number-color {
+                            color: #878787;
+                            font-weight: 300;
+                            font-size: 16px;
+                            line-height: 20px;
+                            text-align: center;
+                            margin-top: 12px;
+                        }
+
+                        .a {
+
+                            display: grid;
+                            height: fit-content;
+                            // display: flex;
+                            // text-align: center;
+                            // justify-content: center;
+                            margin-top: 10px;
+                            margin-left: -75px;
+
+                            .btn-color {
+                                transition: 3s;
+                                background: #656565;
+                                color: #fff;
+                                text-align: center;
+                                // line-height: 15px;
+                                font-size: 15px;
+                                width: 220px;
+                                height: 50px;
+                                align-items: center;
+                                // justify-content: center;
+                            }
+                        }
+
+                        //end
+
+                        .price-number {
+                            color: #878787;
+                            font-weight: 300;
+                            font-size: 16px;
+                            line-height: 20px;
+                            text-align: center;
+                            margin-top: 3px;
+
+
+                        }
+                    }
+                }
+
+                .border-display {
+                    // transition: 0.5s;
+                    border: 1px solid black;
+                    height: 550px !important;
+                    // height: fit-content;
+                    align-items: center;
+                    justify-content: center;
+
+
+                }
+
+
+
+
+            }
+
+
+
+        }
+
+
+    }
+
+
+
+
+}
+
+.new-dip {
+    display: none;
+    opacity: 0;
+}
+
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+    .WhatNew-container {
+        height: fit-content;
+        font-family: 'Montserrat', sans-serif;
+
+        .Whatnew-banner {
+            display: none;
+            height: 905px;
+            // border: 1px solid red;
+            width: 100%;
+            background-image: url(https://pos.nvncdn.com/b22375-44395/bn/20240403_TaWaYDE2.gif);
+            // background-image: url('../../assets/images/thang.jpg');
+
+            background-repeat: no-repeat;
+            background-size: cover;
+
+            .Whatnew-banner-content {
+                width: 334px;
+                // border: 1px solid red;
+                height: 200px;
+                margin: 0 350px;
+                margin-top: 450px;
+
+                .title {
+                    font-weight: 600;
+                    font-size: 33px;
+                    line-height: 38px;
+                    max-width: 466px;
+                    color: white;
+                    font-family: 'Montserrat', sans-serif;
+                }
+
+                .title-child {
+                    color: beige;
+                    font-family: 'Montserrat', sans-serif;
+                    margin-top: 15px;
+                }
+
+                .btn-banner {
+                    width: 168px;
+                    height: 50px;
+                    background-color: transparent;
+                    border: 1px solid beige;
+                    margin-left: 5px;
+
+                    &.btn-banner:hover {
+                        color: white;
+                        background-color: gray;
+                        border: 1px solid gray;
+
+                        outline: none;
+                        transition: 0.5s;
+                    }
+                }
+            }
+
+        }
+
+        .Whatnew-content {
+            margin: 0 auto;
+
+            // margin-top: -10px;
+            // border: 1px solid red;
+            width: fit-content;
+            height: fit-content;
+
+            .content-title {
+                text-transform: uppercase;
+                font-size: 20px;
+                line-height: 25px;
+                margin-top: 50px;
+
+            }
+
+            .content-display {
+                opacity: 0;
+                margin: 0 auto;
+                border: 1px solid #d99e08;
+                width: fit-content;
+                height: 410px;
+                margin-top: 72px;
+                overflow-y: auto !important;
+
+                .display-container {
+                    margin: 0 auto;
+                    flex-wrap: wrap;
+                    display: grid;
+                    width: 450px;
+                    height: auto;
+                    gap: 70px;
+
+                    .content-display-child {
+                        transition: 1s;
+                        width: 198px;
+                        height: 262px;
+                        // border: 1px solid red;
+                        margin: 0 auto;
+
+
+                        .content-display-product {
+                            cursor: pointer;
+                            height: 262px !important;
+                            width: 198px !important;
+                            // border: 1px solid blue;
+                            // background-image: url(https://pos.nvncdn.com/b22375-44395/ps/20240404_Gs3rUlDa16.jpeg);
+                            background-repeat: no-repeat;
+                            background-position: center;
+                            background-size: cover;
+
+                        }
+
+                        .content-display-price {
+                            height: 55px !important;
+                            // border: 1px solid blue;
+                            font-size: 16px;
+                            line-height: 20px;
+
+                            .name-product {
+                                font-size: 16px;
+                                line-height: 20px;
+                                font-weight: 600;
+                                text-align: center;
+                                margin-top: 5px;
+                            }
+
+                            // new
+                            .color-product {
+                                justify-content: center;
+                                text-align: center;
+                                display: flex;
+                                gap: 10px;
+
+                                .border-radius-color {
+                                    cursor: pointer;
+                                    justify-content: center;
+                                    text-align: center;
+                                    margin: 5px;
+                                    height: 20px;
+                                    width: 20px;
+                                    margin-top: 25px;
+                                    border: 2px solid rgb(111, 107, 107);
+                                    // background-color: yellow;
+                                    border-radius: 50%;
+                                    display: inline-flex;
+
+
+                                }
+                            }
+
+                            .price-number-color {
+                                color: #878787;
+                                font-weight: 300;
+                                font-size: 16px;
+                                line-height: 20px;
+                                text-align: center;
+                                margin-top: 12px;
+                            }
+
+                            .a {
+
+                                display: grid;
+                                height: fit-content;
+                                // display: flex;
+                                // text-align: center;
+                                // justify-content: center;
+                                margin-top: 10px;
+                                margin-left: -93px;
+
+                                .btn-color {
+                                    transition: 3s;
+                                    background: #656565;
+                                    color: #fff;
+                                    text-align: center;
+
+                                    // line-height: 15px;
+                                    font-size: 15px;
+                                    width: 180px;
+                                    height: 50px;
+                                    align-items: center;
+                                    // justify-content: center;
+                                }
+                            }
+
+                            //end
+
+                            .price-number {
+                                color: #878787;
+                                font-weight: 300;
+                                font-size: 16px;
+                                line-height: 20px;
+                                text-align: center;
+                                margin-top: 3px;
+
+
+                            }
+                        }
+                    }
+
+                    .border-display {
+                        // transition: 0.5s;
+                        width: 200px;
+                        border: 1px solid black;
+                        height: 550px;
+                        align-items: center;
+                        justify-content: center;
+
+
+                    }
+
+                }
+            }
+
+
+        }
+
+
+    }
+
+    .new-dip {
+        margin: 0 auto;
+        margin-top: -400px;
+        display: block;
+        opacity: 1;
+
+        .slick-next {
+            display: none !important;
+            margin-left: 60px !important;
+        }
+
+
+
+        .slick-prev {
+            display: none !important;
+
+        }
+
+
+
+        .new-dip-product {
+            margin: 0 auto;
+            cursor: pointer;
+            height: 402px;
+            width: 271.39px;
+            // border: 1px solid blue;
+            // background-image: url(https://pos.nvncdn.com/b22375-44395/ps/20240404_Gs3rUlDa16.jpeg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+
+        .name-product {
+            font-size: 16px;
+            line-height: 20px;
+            font-weight: 600;
+            text-align: center;
+            margin-top: 8px;
+        }
+
+        .price-number {
+            color: #878787;
+            font-weight: 300;
+            font-size: 16px;
+            line-height: 20px;
+            text-align: center;
+            margin-top: 3px;
+
+
+        }
+    }
+
+
+}
+
+@media only screen and (min-device-width: 1025px) and (max-device-width: 1225px) {
+    .WhatNew-container {
+        height: fit-content;
+        font-family: 'Montserrat', sans-serif;
+
+        .Whatnew-banner {
+            display: block;
+            height: fit-content;
+            width: 100%;
+            background-image: url(https://pos.nvncdn.com/b22375-44395/bn/20240403_TaWaYDE2.gif);
+            // background-image: url('../../assets/images/thang.jpg');
+
+            background-repeat: no-repeat;
+            background-size: cover;
+
+            .Whatnew-banner-content {
+                // width: 334px;
+                // border: 1px solid red;
+                height: fit-content;
+                margin: 0 350px;
+                margin-top: 450px;
+
+                .title {
+
+                    font-weight: 600;
+                    font-size: 33px;
+                    line-height: 38px;
+                    max-width: 466px;
+                    color: white;
+                    font-family: 'Montserrat', sans-serif;
+                }
+
+                .title-child {
+                    color: beige;
+                    font-family: 'Montserrat', sans-serif;
+                    margin-top: 15px;
+                }
+
+                .btn-banner {
+                    width: 168px;
+                    height: 50px;
+                    background-color: transparent;
+                    border: 1px solid beige;
+                    margin-left: 5px;
+
+                    &.btn-banner:hover {
+                        color: white;
+                        background-color: gray;
+                        border: 1px solid gray;
+
+                        outline: none;
+                        transition: 0.5s;
+                    }
+                }
+            }
+
+        }
+
+        .Whatnew-content {
+            margin-top: 150px;
+            // border: 1px solid red;
+            height: fit-content;
+
+            .content-title {
+                text-transform: uppercase;
+                font-size: 35px;
+                line-height: 56px;
+                text-align: center;
+            }
+
+            .content-display {
+                margin: 0 auto;
+                // border: 1px solid green;
+                width: 100%;
+                height: 410px;
+                margin-top: 92px;
+
+
+                .display-container {
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    width: 100%;
+
+                    display: flex;
+                    height: auto;
+
+                    gap: 33px;
+
+                    .content-display-child {
+                        transition: 1s;
+
+                        width: 218px;
+                        height: 410px;
+
+                        // border: 1px solid red;
+
+
+
+                        .content-display-product {
+                            cursor: pointer;
+                            height: 287px !important;
+                            // border: 1px solid blue;
+                            // background-image: url(https://pos.nvncdn.com/b22375-44395/ps/20240404_Gs3rUlDa16.jpeg);
+                            background-repeat: no-repeat;
+                            background-position: center;
+                            background-size: cover;
+
+                        }
+
+                        .content-display-price {
+                            height: 55px !important;
+                            // border: 1px solid blue;
+                            font-size: 16px;
+                            line-height: 20px;
+
+                            .name-product {
+                                font-size: 16px;
+                                line-height: 20px;
+                                font-weight: 600;
+                                text-align: center;
+                                margin-top: 5px;
+                            }
+
+                            // new
+                            .color-product {
+                                justify-content: center;
+                                text-align: center;
+                                display: flex;
+                                gap: 10px;
+
+                                .border-radius-color {
+                                    cursor: pointer;
+                                    justify-content: center;
+                                    text-align: center;
+                                    margin: 5px;
+                                    height: 20px;
+                                    width: 20px;
+                                    margin-top: 25px;
+                                    border: 2px solid rgb(111, 107, 107);
+                                    // background-color: yellow;
+                                    border-radius: 50%;
+                                    display: inline-flex;
+
+
+                                }
+                            }
+
+                            .price-number-color {
+                                color: #878787;
+                                font-weight: 300;
+                                font-size: 16px;
+                                line-height: 20px;
+                                text-align: center;
+                                margin-top: 12px;
+                            }
+
+                            .a {
+
+                                display: grid;
+                                height: fit-content;
+                                // display: flex;
+                                // text-align: center;
+                                // justify-content: center;
+                                margin-top: 10px;
+                                margin-left: -75px;
+
+                                .btn-color {
+                                    background: #656565;
+                                    color: #fff;
+                                    text-align: center;
+                                    // line-height: 15px;
+                                    margin-left: 87px;
+                                    font-size: 15px;
+                                    width: 190px;
+                                    height: 50px;
+                                    align-items: center;
+                                    // justify-content: center;
+                                }
+                            }
+
+                            //end
+
+                            .price-number {
+                                color: #878787;
+                                font-weight: 300;
+                                font-size: 16px;
+                                line-height: 20px;
+                                text-align: center;
+                                margin-top: 3px;
+
+
+                            }
+                        }
+                    }
+
+                    .border-display {
+                        // transition: 0.5s;
+                        border: 1px solid black;
+                        height: 500px !important;
+                        // height: fit-content;
+                        align-items: center;
+                        justify-content: center;
+
+
+                    }
+
+
+
+
+                }
+
+
+
+            }
+
+
+        }
+
+
+    }
+
+    .new-dip {
+        margin: 0 auto;
+        margin-top: -400px;
+        display: none;
+        opacity: 0;
+
+        .slick-next {
+            display: none !important;
+            margin-left: 60px !important;
+        }
+
+
+
+        .slick-prev {
+            display: none !important;
+
+        }
+
+
+
+        .new-dip-product {
+            margin: 0 auto;
+            cursor: pointer;
+            height: 402px;
+            width: 271.39px;
+            // border: 1px solid blue;
+            // background-image: url(https://pos.nvncdn.com/b22375-44395/ps/20240404_Gs3rUlDa16.jpeg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+
+        .name-product {
+            font-size: 16px;
+            line-height: 20px;
+            font-weight: 600;
+            text-align: center;
+            margin-top: 8px;
+        }
+
+        .price-number {
+            color: #878787;
+            font-weight: 300;
+            font-size: 16px;
+            line-height: 20px;
+            text-align: center;
+            margin-top: 3px;
+
+
+        }
+    }
+}
