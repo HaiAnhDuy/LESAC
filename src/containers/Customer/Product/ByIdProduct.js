@@ -133,8 +133,8 @@ class ByIdProduct extends Component {
 
                     </div>
                     <div className='thin mt-4'></div>
-                    <LesacOnme
-                    />
+                    {/* <LesacOnme
+                    /> */}
                     <HomeBottom />
                 </div>
             </>

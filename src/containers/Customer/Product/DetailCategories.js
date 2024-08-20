@@ -200,8 +200,8 @@ class DetailCategories extends Component {
 
                     </div>
                     <div className='thin_dp'></div>
-                    <LesacOnme
-                    />
+                    {/* <LesacOnme
+                    /> */}
                     <div className='rp_1'>
                         <HomeBottom />
 

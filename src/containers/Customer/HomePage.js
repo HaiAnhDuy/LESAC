@@ -56,7 +56,7 @@ class HomePage extends Component {
                     <TheFeels />
                     <Categories />
                     <Policy />
-                    <LesacOnme />
+                    {/* <LesacOnme /> */}
                     <HomeBottom />
                 </div>
 

@@ -23,11 +23,10 @@ class TheFeels extends Component {
                 <div className='the-feels-container'>
                     <div className='content-container'>
                         <div className='title-the-feel'>
-                            THE FEELS
+                            CÙNG KINH ĐÔ
                         </div>
                         <div className='content-the-feel'>
-                            LESAC sẽ mang tới một LINHKA đa sắc màu trong hai hình tượng trái ngược với concept "The Feels".
-                        </div>
+                            Trung Thu nay dẫu có chút khác xưa, nhưng tiếng cười thơ trẻ ấy cần được lưu giữ vẹn nguyên. Còn gì tuyệt vời hơn khi chúng ta trao lại niềm vui trong sáng ấy cho hôm nay và mai sau, để tuổi thơ các em được vui trọn một ngày Tết Thiếu Nhi đúng nghĩa.                        </div>
                         <div className='title-content'>
 
                         </div>

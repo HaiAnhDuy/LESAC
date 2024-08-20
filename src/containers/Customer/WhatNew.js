@@ -143,12 +143,12 @@ class WhatNew extends Component {
                     <div className='Whatnew-banner'>
                         <div className='Whatnew-banner-content'>
                             <div className='title'>
-                                LESAC | On the go
+                                KINH ĐÔ
                             </div>
                             <div className='title-child'>
-                                Cùng LESAC tận hưởng những khoảnh khắc sống động, tràn đầy nhiệt huyết trong những chuyến đi của mùa hè 2024 nhé!
+                                Đồng hành cùng Kinh Đô đăng ký ngay ngày hôm nay để có thể nhận được những mãu sản phẩm mới nhất cùng với vô vàn quà tặng hấp dẫn
                             </div>
-                            <button className='btn-banner'>Xem thêm</button>
+                            <button className='btn-banner'>ĐĂNG KÝ</button>
                         </div>
                     </div>
                     <div className='Whatnew-content'>

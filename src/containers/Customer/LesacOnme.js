@@ -14,7 +14,7 @@ class LesacOnme extends Component {
 
         return (
             <>
-                <div className='lesac-onme-container'>
+                {/* <div className='lesac-onme-container'>
                     <div className='lesac-onme-title'>
                         <div className='content-left'>
                             #LESAC_ONME
@@ -73,7 +73,7 @@ class LesacOnme extends Component {
 
 
 
-                </div>
+                </div> */}
 
             </>
         );

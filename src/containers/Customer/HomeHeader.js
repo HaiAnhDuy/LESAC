@@ -140,7 +140,7 @@ class HomeHeader extends Component {
                         <div className='content-top-right'>
                             <div className='content-phonumber'>
                                 <a href='tel:0855 255 895'>
-                                    <span ><i class="fas fa-phone"></i>&nbsp;&nbsp;0855 255 895</span>
+                                    <span ><i class="fas fa-phone"></i>&nbsp;&nbsp;0919 838 786</span>
 
                                 </a>
                             </div>
@@ -162,7 +162,7 @@ class HomeHeader extends Component {
                             </div>
                             <div className='ct-center-2'>
                                 <div className='ct2-child' onClick={() => this.GoToHomePage()} style={{ cursor: 'pointer' }}>
-                                    <img src="https://pos.nvncdn.com/b22375-44395/store/20190320_o4CLqgnED7QaznzcRQqeV4ik.png" alt="logo" />
+                                    <img src="https://banhkinhdo.vn/wp-content/uploads/2022/08/logo-kinhdo-2022-1.jpg" alt="logo" />
                                 </div>
                             </div>
                             <div className='ct-center-3'>

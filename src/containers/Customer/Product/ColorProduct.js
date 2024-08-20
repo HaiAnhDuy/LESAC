@@ -227,8 +227,8 @@ class ColorProduct extends Component {
                     </div>
                     <div className='thin'></div>
 
-                    <LesacOnme
-                    />
+                    {/* <LesacOnme
+                    /> */}
                     <div className='color_bottom'>
                         <HomeBottom />
 

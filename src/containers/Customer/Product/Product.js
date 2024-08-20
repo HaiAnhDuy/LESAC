@@ -198,8 +198,8 @@ class Product extends Component {
                         </div>
                     </div>
                     <div className='thin'></div>
-                    <LesacOnme
-                    />
+                    {/* <LesacOnme
+                    /> */}
                     <div className='hb'>
                         <HomeBottom />
 

@@ -8,22 +8,22 @@
         height: 905px;
         // border: 1px solid red;
         width: 100%;
-        background-image: url(https://pos.nvncdn.com/b22375-44395/bn/20240403_TaWaYDE2.gif);
+        background-image: url(https://banhkinhdo.vn/wp-content/uploads/2022/08/banner-kinhdo.jpg);
         // background-image: url('../../assets/images/thang.jpg');
 
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: contain;
 
         .Whatnew-banner-content {
             width: 334px;
             // border: 1px solid red;
             height: 200px;
-            margin: 0 350px;
-            margin-top: 450px;
+            margin: 0 150px;
+            margin-top: 180px;
 
             .title {
                 font-weight: 600;
-                font-size: 33px;
+                font-size: 40px;
                 line-height: 38px;
                 max-width: 466px;
                 color: white;
@@ -42,6 +42,7 @@
                 background-color: transparent;
                 border: 1px solid beige;
                 margin-left: 5px;
+                color: yellow;
 
                 &.btn-banner:hover {
                     color: white;
@@ -57,15 +58,21 @@
     }
 
     .Whatnew-content {
-        margin-top: 150px;
-        // border: 1px solid red;
-        height: fit-content;
 
+        // border: 1px solid red;
+        height: 800px;
+        background-image: url(https://cdn.lichngaytot.com/medias/amp/2022/5/5/Con-bao-nhieu-ngay-nua-den-Tet-Trung-Thu-%E2%80%93-Dem-nguoc-den-Ram-thang-8-am-lich.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+
+        /* Center the image */
         .content-title {
             text-transform: uppercase;
             font-size: 35px;
             line-height: 56px;
             text-align: center;
+            color: white;
         }
 
         .content-display {
@@ -112,12 +119,14 @@
                         font-size: 16px;
                         line-height: 20px;
 
+
                         .name-product {
                             font-size: 16px;
                             line-height: 20px;
                             font-weight: 600;
                             text-align: center;
                             margin-top: 5px;
+                            color: white;
                         }
 
                         // new
@@ -135,7 +144,7 @@
                                 height: 20px;
                                 width: 20px;
                                 margin-top: 25px;
-                                border: 2px solid rgb(111, 107, 107);
+                                border: 2px solid rgb(255, 255, 255);
                                 // background-color: yellow;
                                 border-radius: 50%;
                                 display: inline-flex;
@@ -145,7 +154,7 @@
                         }
 
                         .price-number-color {
-                            color: #878787;
+                            color: white;
                             font-weight: 300;
                             font-size: 16px;
                             line-height: 20px;
@@ -165,7 +174,8 @@
 
                             .btn-color {
                                 transition: 3s;
-                                background: #656565;
+                                background: transparent;
+                                border: solid white 1px;
                                 color: #fff;
                                 text-align: center;
                                 // line-height: 15px;
@@ -180,7 +190,7 @@
                         //end
 
                         .price-number {
-                            color: #878787;
+                            color: #c6c4c4;
                             font-weight: 300;
                             font-size: 16px;
                             line-height: 20px;
@@ -194,7 +204,7 @@
 
                 .border-display {
                     // transition: 0.5s;
-                    border: 1px solid black;
+                    border: 1px solid #fbfa66;
                     height: 550px !important;
                     // height: fit-content;
                     align-items: center;
@@ -236,18 +246,18 @@
             height: 905px;
             // border: 1px solid red;
             width: 100%;
-            background-image: url(https://pos.nvncdn.com/b22375-44395/bn/20240403_TaWaYDE2.gif);
+            background-image: url(https://banhkinhdo.vn/wp-content/uploads/2022/08/banner-kinhdo.jpg);
             // background-image: url('../../assets/images/thang.jpg');
 
             background-repeat: no-repeat;
-            background-size: cover;
+            background-size: contain;
 
             .Whatnew-banner-content {
                 width: 334px;
                 // border: 1px solid red;
                 height: 200px;
-                margin: 0 350px;
-                margin-top: 450px;
+                margin: 0 150px;
+                margin-top: 180px;
 
                 .title {
                     font-weight: 600;
@@ -473,7 +483,7 @@
             // background-image: url(https://pos.nvncdn.com/b22375-44395/ps/20240404_Gs3rUlDa16.jpeg);
             background-repeat: no-repeat;
             background-position: center;
-            background-size: cover;
+            background-size: contain;
         }
 
         .name-product {
@@ -508,23 +518,23 @@
             display: block;
             height: fit-content;
             width: 100%;
-            background-image: url(https://pos.nvncdn.com/b22375-44395/bn/20240403_TaWaYDE2.gif);
+            background-image: url(https://banhkinhdo.vn/wp-content/uploads/2022/08/banner-kinhdo.jpg);
             // background-image: url('../../assets/images/thang.jpg');
 
             background-repeat: no-repeat;
-            background-size: cover;
+            background-size: contain;
 
             .Whatnew-banner-content {
                 // width: 334px;
                 // border: 1px solid red;
                 height: fit-content;
-                margin: 0 350px;
-                margin-top: 450px;
+                margin: 0 150px;
+                margin-top: 180px;
 
                 .title {
 
                     font-weight: 600;
-                    font-size: 33px;
+                    font-size: 40px;
                     line-height: 38px;
                     max-width: 466px;
                     color: white;
@@ -543,6 +553,7 @@
                     background-color: transparent;
                     border: 1px solid beige;
                     margin-left: 5px;
+                    color: yellow;
 
                     &.btn-banner:hover {
                         color: white;
@@ -558,9 +569,12 @@
         }
 
         .Whatnew-content {
-            margin-top: 150px;
             // border: 1px solid red;
             height: fit-content;
+            background-image: url(https://cdn.lichngaytot.com/medias/amp/2022/5/5/Con-bao-nhieu-ngay-nua-den-Tet-Trung-Thu-%E2%80%93-Dem-nguoc-den-Ram-thang-8-am-lich.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
 
             .content-title {
                 text-transform: uppercase;
@@ -749,7 +763,7 @@
             // background-image: url(https://pos.nvncdn.com/b22375-44395/ps/20240404_Gs3rUlDa16.jpeg);
             background-repeat: no-repeat;
             background-position: center;
-            background-size: cover;
+            background-size: contain;
         }
 
         .name-product {
